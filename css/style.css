@@ -6,44 +6,36 @@
 }
 
 .chat_section{
-  border: 2px solid rgb(216, 37, 147);
-  border-radius: 23px;
-  /* background-color: rgb(70, 223, 151); */
-  /* justify-content: center; */
+  
+  justify-content: center;
   text-align: center;
-  display: block;
-  /* position: initial; */
-  width: 35vmax;
-  padding: 16px;
-  /* height: 40vmax; */
-  /* display: inline; */
+  /* display: inline-block; */
+  position: initial;
+   /* width: 73vmax; */
 }
 
 .message_area{
+  text-align: left;
   border: 2px solid green;
-  border-radius: 23px;
-  background-color: wheat;
-  width: 45vmin;
-  height: 30vmax;
-  overflow-y:scroll;
+  position: inherit;
+  border-radius: 14px;
+  background-color: #423722;
+  width: 59vmax;
+  height: 78vmin;
+  overflow-y: scroll;
   margin-bottom: 10px;
   padding: 12px;
-
 }
-.message{
-  
-  /* color: khaki; */
-  /* text-align: center; */
 
-}
 .incoming{
   
   color: rgb(45, 131, 24);
-  margin-left: 3px;
+  margin-right: 4px;
+  
 }
 .incoming h4{
   border: 1px solid green;
-  background-color: rgb(206, 180, 206);
+  background-color: rgb(214, 176, 214);
   width: 7vmax;
   border-radius: 10px;
   margin: 3px;
@@ -53,18 +45,19 @@
   border:2px solid thistle;
   border-radius: 12px;
   background-color: rgb(23, 250, 227);
-  width: 15vmax;
+  width: 30vmax;
   font-size: 20px;
   margin: 3px;
   padding: 7px 22px;
 }
 .outgoing{
-  margin-right: 4px;
+  margin-left: 3px;
+  
 
 }
 .outgoing h4{
-  border: 1px solid green;
-  background-color: rgb(206, 180, 206);
+  border: 1px solid rgb(223, 238, 223);
+  background-color: rgb(214, 176, 214);
   width: 7vmax;
   border-radius: 10px;
   margin-right: 2px;
@@ -74,7 +67,7 @@
   border:2px solid thistle;
   border-radius: 12px;
   background-color: rgb(23, 250, 227);
-  width: 15vmax;
+  width: 30vmax;
   font-size: 20px;
   margin-right: 2px;
   padding: 7px 22px;
@@ -84,8 +77,14 @@ textarea{
   border-radius: 23px;
   margin: 11px;
   padding: 12px;
-  width: 20vmax;
+  width: 50vmax;
   height: 28px;
   font-size: 19px;
   color: salmon;
+}
+.Bname{
+  /* border: 1px solid green; */
+  border-radius: 23px;
+  /* background: #94a09e; */
+  color: rgb(153, 133, 167);
 }

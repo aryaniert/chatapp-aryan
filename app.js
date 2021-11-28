@@ -34,7 +34,7 @@ io.on('connection',async(socket)=>{
     console.log('A user connected');
     const ret = await sendm.find();
     const no = await sendm.count();
-    console.log(`The no. of message ${no}`);
+    // console.log(`The no. of message ${no}`);
 
     for (let i = 0; i < no; i++){
     // console.log(ret[i]);
